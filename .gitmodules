@@ -1,0 +1,3 @@
+[submodule "selective-inference"]
+	path = selective-inference
+	url = git@github.com:snigdhagit/selective-inference.git
