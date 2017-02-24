@@ -1,3 +1,6 @@
 [submodule "selective-inference"]
 	path = selective-inference
 	url = git@github.com:snigdhagit/selective-inference.git
+[submodule "regreg"]
+	path = regreg
+	url = git@github.com:jonathan-taylor/regreg.git
