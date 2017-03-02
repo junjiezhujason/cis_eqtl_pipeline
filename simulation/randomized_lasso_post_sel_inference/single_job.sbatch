@@ -19,5 +19,5 @@ echo $OUT
 echo "Number of true signals: ${TSIG}"
 # source environment
 source /home/jjzhu/source_code/cis_eqtl_pipeline/.env/bin/activate
-PYSCRIPT=/home/jjzhu/source_code/cis_eqtl_pipeline/selective-inference/selection/bayesian/cisEQTLS/tests/high_dim_test.py
+PYSCRIPT=/home/jjzhu/source_code/cis_eqtl_pipeline/selective-inference/selection/bayesian/cisEQTLS/tests/sim_high_dim_test.py
 python ${PYSCRIPT} -o ${OUT} -s ${SEED} -m ${TSIG}
