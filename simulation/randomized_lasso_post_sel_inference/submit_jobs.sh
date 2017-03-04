@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TRUESIG=0
+TRUESIG=5
 DIR=/scratch/PI/sabatti/controlled_access_data/high_dim_sim_exp/high_dim_test_${TRUESIG}
 
 mkdir -p ${DIR}
