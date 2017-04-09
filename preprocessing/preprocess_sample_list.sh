@@ -1,14 +1,14 @@
 #!/bin/bash
 
-TLIST= $1 # tissue list 
-GDIR= $2 # dir of processed genoytpes
-PDIR= $3 # dir of processed phenotypes 
-SDIR= $4 # dir of sample lists to be stored
+TLIST=$1 # tissue list 
+GDIR=$2 # dir of processed genoytpes
+PDIR=$3 # dir of processed phenotypes 
+SDIR=$4 # dir of sample lists to be stored
 
-TLIST=/share/PI/sabatti/controlled_access_gtex_data/our_analysis/TissueList.txt
-GDIR=/share/PI/sabatti/controlled_access_gtex_data/our_analysis/genotype_data
-PDIR=/share/PI/sabatti/controlled_access_gtex_data/our_analysis/phenotype_data
-SDIR=/share/PI/sabatti/controlled_access_gtex_data/our_analysis/sample_list
+echo "$TLIST"
+echo "$GDIR"
+echo "$PDIR"
+echo "$SDIR"
 
 GFILE=${SDIR}/sample_ids_genotype.txt
 cp ${GDIR}/gtex.v6.OMNI_2.5M_5M_450Indiv_allchr_genot_imput_info04_maf01_HWEp1E6_ConstrVarIDs.new.header.txt ${GFILE}
