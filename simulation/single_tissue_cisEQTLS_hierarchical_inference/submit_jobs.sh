@@ -10,10 +10,11 @@ SDIR=$DIR/trial_${SEED}/tmp
 # for i in {2001..2500}
 
 counter=0
-# for GENE in {0..500}
-# for GENE in {2000..2500}
+# for GENE in {400..500}
+for GENE in {2100..2500}
 # for GENE in {3750..4999}
-for GENE in {4500..4999}
+# for GENE in {4500..4999}
+# for GENE in {3750..4500}
 do
     echo 
     # check if the particular eGene was selected or not

@@ -5,7 +5,7 @@
 #SBATCH -N 1
 #SBATCH -n 1 
 #SBATCH -c 1 
-#SBATCH --time=8:00:00
+#SBATCH --time=16:00:00
 
 #################
 #all commands that start with SBATCH contain commands that are just used by SLURM for scheduling
