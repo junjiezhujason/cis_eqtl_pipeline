@@ -1,4 +1,5 @@
 
 .env
+.env3
 simulation/archive
 simulation/randomized_lasso_post_sel_inference/sim_job.*
