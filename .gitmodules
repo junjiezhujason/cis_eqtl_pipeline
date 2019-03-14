@@ -4,3 +4,6 @@
 [submodule "regreg"]
 	path = regreg
 	url = git@github.com:jonathan-taylor/regreg.git
+[submodule "fastqtl"]
+	path = fastqtl
+	url = git@github.com:junjiezhujason/fastqtl-1.git
